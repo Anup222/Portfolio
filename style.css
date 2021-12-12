@@ -1,0 +1,58 @@
+body {
+  padding: 0;
+  margin: 0;
+
+  background-image: url("background.jpg");
+  color: white;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(214, 77, 14);
+  color: white;
+  padding-inline: 15px;
+}
+ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+
+main {
+  width: 80vw;
+  margin-inline: auto;
+}
+
+.about {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.heading span {
+  border-bottom: 1px solid red;
+}
+.about img {
+  height: 250px;
+  width: 250px;
+}
+.skills-container {
+  display: flex;
+  font-size: 22px;
+  gap: 1.2rem;
+  flex-wrap: wrap;
+}
+.project-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.project-card {
+  width: 350px;
+  padding: 10px;
+}
+.project-card img {
+  height: 300px;
+  width: 300px;
+}
